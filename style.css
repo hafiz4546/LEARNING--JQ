@@ -7,26 +7,8 @@
 html{
     scroll-behavior: smooth;
 }
-/* .all{
-    width: 100%;
-    height: 130vh;
-    background-size: cover;
-    background-position: center;
-
-} */
-/* .primary{
-    background: url(https://4kwallpapers.com/images/wallpapers/pubg-mobile-playerunknowns-battlegrounds-2020-games-2560x1440-1722.jpg) no-repeat;
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    
-} */
-/* .heading{
-    font-size: 40px;
-    padding: 0px;
-} */
 .fns{
+    margin-right: 10px;
     width: 32px;
     height: auto;
 }
@@ -57,52 +39,28 @@ body{
         #3d72b4) no-repeat
         
 }
-
-/* .carousel-item{
-    padding: 5% 15%;
-    text-align: center;
-    
-} */
 .carousel-inner{
     position: relative;
     width: 100%;
     overflow: hidden;
 }
-div{
-    /* display: block; */
-}
 .carousel-inner img{
-    width: 100%;
-    
+    width: 100%;    
 }
 .navbar{
-    margin-left: 80px;
-    
+    padding-left: 50px;    
 }
 .navbar-nav{
     margin-left: auto;
     margin-right: 30px;
 }
-/* .carousel-inner{
-    margin-top: 111px;
-    bottom: 80px;
-} */
 
-/* .carousel-control-prev{
-    margin-bottom: 200px;
-}
-.carousel-control-next{
-    margin-bottom: 200px;
-} */
-/* .carousel-indicators{
-    bottom: 80px;
-} */
 .navbar{
     transition: background 0.35s;
 }
-/* .navbg{
-     background: linear-gradient(145deg, #525252, #3d72b4); 
- }  */
+.navbg{
+     background: black
+ } 
 .second {
     text-align: center;
 }
@@ -143,20 +101,12 @@ a{
 .divider{
     border-bottom: 1px solid black;
     opacity: 0.3;
-    /* margin: 80px 0;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;  */
 }
 img{
     max-width: 100%;
 }
 .center{
-    /* margin-left: 150px; */
-    letter-spacing: -1;
-    /* margin-top: 90px; */
-    /* padding-right: 200px; */
-    /* margin-bottom: 120px; */
+    letter-spacing: -1;   
 }
 .chrome{
     margin-right: 0px;
@@ -194,7 +144,7 @@ span{
 }
 
 .slick-slider {
-    /* height: 100vh; */
+    height: 100vh;
 }
 .slick-prev {
     left: 15px;
@@ -210,4 +160,7 @@ span{
 }
 .slick-slider-item h1 {
     position: absolute;
+}
+.textcolor{
+    color: white;
 }
