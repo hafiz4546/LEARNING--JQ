@@ -1,0 +1,75 @@
+.navbar {
+    background-color: transparent;
+    transition: background-color .35s;
+}
+.nav-link {
+    color: #555;
+}
+
+
+
+
+
+.owl-carousel {
+    height: 100vh;
+}
+.owl-stage-outer,
+.owl-stage,
+.owl-item,
+.owl-slide {
+    height: 100%;
+}
+.owl-slide {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.owl-slide-text {
+    position: absolute;
+    bottom: 5rem;
+    color: #eee;
+    width: 100%;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: transform .45s, opacity .45s;
+    transition-delay: .25s;
+}
+.owl-slide-text.slide-up {
+    transform: none;
+    opacity: 1;
+}
+.owl-prev, .owl-next {
+    position: absolute;
+    top: 50%;
+}
+.owl-prev {
+    left: 1rem;
+}
+.owl-next {
+    right: 1rem;
+}
+.owl-nav i {
+    font-size: 40px;
+}
+.owl-dots {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+}
+.owl-dot {
+    margin-right: 1rem;
+}
+.owl-dot:last-child {
+    margin-right: 0;
+}
+.owl-dot span {
+    display: block;
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.owl-dot.active span {
+    background-color: red;
+}
