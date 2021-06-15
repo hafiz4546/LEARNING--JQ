@@ -1,5 +1,6 @@
 
 var owl = $(".owl-carousel").owlCarousel({
+    loop:true,
     items: 1,
     nav: true,
     navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
@@ -22,7 +23,13 @@ $(window).on('scroll', function(){
     } else{
         $(".navbar").addClass('navbar-dark').removeClass("bg-light");
     }
-    // var k = $(window).scrollTop()
-    // console.log(k)
+    if($(this).scrollTop() > 500){
+        $(".btn-top").fadeIn();
+    } else{
+        $(".btn-top").fadeOut();
+    }
 }) 
-
+ 
+$(".btn-top").click(function(){
+    $('html,body').animate({scrollTop : 0},350)
+})

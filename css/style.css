@@ -1,3 +1,4 @@
+
 .navbar {
     background-color: transparent;
     transition: background-color .35s;
@@ -72,4 +73,66 @@
 }
 .owl-dot.active span {
     background-color: red;
+}
+
+
+/* My-part-css start here */
+.section{
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+
+.btn-radius{
+    border-radius: 50px;
+    padding: 15px ;
+    padding-left: 20px ;
+    padding-right: 20px;
+}
+.btn-design{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.btn-top{
+    background:  #643094;
+    border-radius: 50%;
+    position: fixed; 
+    right: 25px;
+    bottom: 25px;
+    display: none;
+    color: white;   
+}
+.btn-top:hover{
+    background: rgb(84,185,209) ;
+}
+
+
+.circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background:linear-gradient(135deg,rgb(63,97,235),rgb(89,35,197));
+}
+.borrow-img{
+    max-width: 100%;
+    height: auto;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+
+.social-team a{
+    color: black;
+    padding: 5px;
+    margin-right: 20px;
+}
+.social-team a:hover{
+    background: rgba(46, 165, 224, 0.861);
+    border-radius: 50%;
+    text-decoration: none;
+}
+.social-team a:last-child{
+    margin-right: 0;
 }
