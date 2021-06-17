@@ -1,0 +1,241 @@
+html,body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.navbar {
+    background-color: transparent;
+    transition: background-color .35s;
+}
+.nav-link {
+    color: #555;
+}
+
+
+
+
+
+.owl-carousel {
+    height: 100vh;
+}
+.owl-stage-outer,
+.owl-stage,
+.owl-item,
+.owl-slide {
+    height: 100%;
+}
+.owl-slide {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.owl-slide-text {
+    position: absolute;
+    bottom: 5rem;
+    color: #eee;
+    width: 100%;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: transform .45s, opacity .45s;
+    transition-delay: .25s;
+}
+.owl-slide-text.slide-up {
+    transform: none;
+    opacity: 1;
+}
+.owl-prev, .owl-next {
+    position: absolute;
+    top: 50%;
+}
+.owl-prev {
+    left:1rem;
+}
+.owl-next {
+    right: 1rem;
+}
+.owl-nav i {
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(253, 248, 243, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.5s ease;
+    color: rgba(241, 232, 214, 0.5);
+}
+.owl-nav i:hover{
+    background: black;
+    color: rgba(255, 247, 247,0.8);
+}
+.owl-dots {
+    position: absolute;
+    bottom: 1rem;
+    left: 47%;
+}
+.owl-dot {
+    margin-right: 1rem;
+}
+.owl-dot:last-child {
+     margin-right: 0;
+}
+.owl-dot span {
+    display: block;
+    height: 15px;
+    width: 15px;
+    background-color: rgba(241, 232, 214, 0.5);
+    border-radius: 50%;
+}
+.owl-dot.active span {
+    background-color: black;
+}
+
+
+/* My-part-css start here */
+.section{
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+
+.btn-radius{
+    border-radius: 50px;
+    padding: 15px ;
+    padding-left: 20px ;
+    padding-right: 20px;
+}
+.btn-design{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.btn-top{
+    background:  #643094;
+    border-radius: 50%;
+    position: fixed; 
+    right: 25px;
+    bottom: 25px;
+    display: none;
+    color: white;   
+}
+.btn-top:hover{
+    background: rgb(84,185,209) ;
+}
+
+
+.circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background:linear-gradient(135deg,rgb(63,97,235),rgb(89,35,197));
+}
+.borrow-img{
+    max-width: 100%;
+    height: auto;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.borrow-img-social{
+    max-width: 100%;
+    height: auto;
+}
+.social-team a{
+    color: black;
+    padding: 5px;
+    margin-right: 20px;
+}
+.social-team a:hover{
+    background: rgba(46, 165, 224, 0.861);
+    border-radius: 50%;
+    text-decoration: none;
+}
+.social-team a:last-child{
+    margin-right: 0;
+}
+@media (max-width: 575.98px) {
+    .borrow-img-social{
+        max-width: 70%;
+    }
+    .social-team{
+        margin-bottom: 2rem;
+    }
+    .owl-nav i {
+        font-size: 25px;
+        width: 40px;
+        height: 40px;
+    }
+    .mini-service-card{
+        margin-bottom: 2rem;
+    }
+    .card{
+        margin-bottom: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+}
+
+
+.card{
+    cursor: pointer;
+    transform: none;
+    transition: transform 0.4s,box-shadow 0.5s;
+    
+}
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.5);
+    
+}
+.card-img{
+    max-width: 50px;
+    width: 100%;
+    border-radius: 50%;
+    background: cadetblue;
+    overflow: hidden;
+}
+.card-body h6{
+    color: black;
+}
+.card span{
+    color: #f033b5;
+}
+
+
+.director-team{
+    cursor: pointer;
+    transform: none;
+    transition: transform 0.5s;
+}
+.director-team:hover{
+    transform: scale(1.06);
+}
+
+
+.mini-service-heading,.service-icon{
+    color:rgb(130,161,50)
+}
+.mini-service-card{
+    cursor: pointer;
+    transform: none;
+    .service-icon{
+        transition: transform 0.5s;
+    }
+    
+}
+.mini-service-card:hover {
+    .service-icon{
+        transform: scale(1.3);
+        color: black;
+    }
+    .mini-service-heading{
+        transition: 0.5s ease;
+        color: black;
+    }
+    
+}
